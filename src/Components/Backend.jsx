@@ -18,7 +18,7 @@ export function Backend() {
         "El proyecto sigue en curso y aplicandole testing entre otras optimizaciones de front-end, funcional, segura y usable por cualquiera. Se puede acceder a la documentación en la cual registrandose e iniciando sesion se le brinda un codigo JWT, el cual dependiendo el nivel de autorizacion registrado, tienen diferentes niveles de accesibilidad a los distintos endpoints, ejemplo: crear un producto siendo usuario PREMIUM y no como USER, como ADMIN no pueden realizar compras. Accede aqui ➪ "
       }
       proyectUrl={
-        "https://github.com/joaquinGV/starsjewerly/tree/main/PreEntrega3-GonzalezVazquez#readme"
+        "https://backendapi-development.up.railway.app/api/docs/"
       }
       proyectText={"Documentación API."}
     >
