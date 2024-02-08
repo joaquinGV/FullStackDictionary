@@ -1,0 +1,80 @@
+
+.concept-details {
+    width: 650px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+summary.summary-style {
+    font-weight: bold;
+    color: #0d82e2; /* Color azul */
+    cursor: pointer; /* Cambia el cursor al hacer hover */
+    background-color: #e0e0e0b7; /* Cambia el fondo del elemento details */
+    padding: 10px; /* Añade espaciado interior para distinguir el elemento */
+    border-radius: 8px;
+  }
+
+  summary.rounded-summary{
+    border-radius: 8px 8px 0 0;
+  }
+  
+  details > summary:focus {
+    outline: none; /* Elimina el contorno al hacer foco */
+  }
+
+  details {
+    margin: 10px; /* Añade espaciado interior para distinguir el elemento */
+  }
+  
+  details > p {
+    background-color: #1d1111; /* Cambia el color de fondo del elemento p */
+    padding: 10px; /* Añade espaciado interior para distinguir el elemento */
+    border-radius: 5px; /* Añade bordes redondeados al elemento p */
+    margin: 0;
+  }
+  
+  
+  details > summary::-webkit-details-marker {
+    display: none; /* Oculta el indicador de flecha en Chrome */
+  }
+  
+  details > summary::marker {
+    display: none; /* Oculta el indicador de flecha en Firefox */
+  }
+  
+  /* Cambiar estilos del botón */
+  details > summary + p {
+    display: none; /* Oculta el contenido por defecto */
+  }
+  
+  details[open] > summary + p {
+    display: block; /* Muestra el contenido cuando está abierto */
+  }
+  
+  
+.ref {
+  display: inline-flex; /* Utilizamos inline-flex para alinear verticalmente el contenido */
+  align-items: center; /* Alineamos verticalmente al contenido */
+  padding: 2.5px; /* Añadimos relleno para separar el icono del borde */
+  background-color: #f0f0f0; /* Color de fondo */
+  border-radius: 50%; /* Borde redondeado */
+  float: right;
+  margin-right: -30px;
+}
+
+.icono {
+  vertical-align: middle; /* Alineamos verticalmente el icono */
+}
+
+li{
+  padding-right: 30px;
+}
+
+.proyect-description {
+  font-size: 14px;
+}
+
+
+.rounded-p{
+  border-radius: 0 0 8px 8px;
+}
