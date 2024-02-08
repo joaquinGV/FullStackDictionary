@@ -12,7 +12,7 @@ export function Section({
   children,
 }) {
   return (
-    <div className="concept-details" id={id}>
+    <div className="concept-details secciones" id={id}>
       <h2 style={{ textAlign: "center" }}>{title}</h2>
       <section>
         <h3>Experiencia:</h3>

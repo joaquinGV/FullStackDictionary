@@ -44,7 +44,7 @@
 
 .secciones ol li {
   cursor: pointer;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 .secciones ol li:hover {
   color: aquamarine;
@@ -56,7 +56,12 @@
 
 @media screen and (max-width: 576px) {
   body, .secciones {
-    font-size: 1.2em; /* Aumenta el tamaño de la fuente en dispositivos móviles */
+    font-size: 1.25em; /* Aumenta el tamaño de la fuente en dispositivos móviles */
+  }
+}
+@media screen and (min-width: 576px) {
+  .secciones {
+    font-size: 1.1em; /* Aumenta el tamaño de la fuente en dispositivos móviles */
   }
 }
 
