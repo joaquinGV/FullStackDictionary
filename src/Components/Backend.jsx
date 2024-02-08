@@ -14,7 +14,7 @@ export function Backend() {
         "https://github.com/joaquinGV/backendCourse/tree/main/Clase39_entregable"
       }
       proyectTitle={
-        "API de ECOMMERCE (Usuarios, Productos, Carritos y Tickets)"
+        "Repositorio de API para ECOMMERCE (Usuarios, Productos, Carritos y Tickets)"
       }
       proyectDescription={
         "El proyecto sigue en curso y aplicandole testing entre otras optimizaciones de front-end, funcional, segura y usable por cualquiera. Se puede acceder a la documentación en la cual registrandose e iniciando sesion se le brinda un codigo JWT, el cual dependiendo el nivel de autorizacion registrado, tienen diferentes niveles de accesibilidad a los distintos endpoints, ejemplo: crear un producto siendo usuario PREMIUM y no como USER, como ADMIN no pueden realizar compras. Accede aqui ➪ "
