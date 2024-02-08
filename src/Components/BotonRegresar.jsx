@@ -33,7 +33,7 @@ function BotonRegresar() {
       className={`boton-regresar ${mostrarBoton ? "visible" : ""}`}
       onClick={handleClick}
     >
-      <FaArrowCircleUp className="arrowup" size={32} />
+      <FaArrowCircleUp className="arrowup" size={"6vh"} />
     </button>
   );
 }
