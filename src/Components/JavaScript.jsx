@@ -68,9 +68,7 @@ export function JavaScript() {
         <li>
           <strong>Estructura IF: </strong>Es la más utilizada en la mayoría de
           los lenguajes. Si la condición se cumple (es decir, si su valor es
-          true) se ejecutan todas las instrucciones que se encuentran dentro del{" "}
-          {"{...}"}. Si la condición no se cumple (es decir, si su valor es
-          false) no se ejecuta ninguna instrucción contenida en {"{...}"} y el
+          true) se ejecutan todas las instrucciones que se encuentran dentro del {"{...}"}. Si la condición no se cumple (es decir, si su valor es false) no se ejecuta ninguna instrucción contenida en {"{...}"} y el
           programa continúa ejecutando el resto de instrucciones del script.
         </li>
         <li>

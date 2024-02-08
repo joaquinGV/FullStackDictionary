@@ -147,18 +147,18 @@ export function React() {
           <strong>Métodos de ciclos de vida(class based): </strong>
           <ul>
             <li>
-              <strong>componentWillMount()*</strong>Este método del ciclo de
+              <strong>componentWillMount()*: </strong>Este método del ciclo de
               vida es de tipo montaje. Se ejecuta justo antes del primer
               renderizado del componente.
             </li>
             <li>
-              <strong>componentDidMount()</strong>Método de montaje, que solo se
+              <strong>componentDidMount(): </strong>Método de montaje, que solo se
               ejecuta en el lado del cliente. Se produce inmediatamente después
               del primer renderizado. Una vez que se invoca este método ya están
               disponibles los elementos asociados al componente en el DOM.
             </li>
             <li>
-              <strong>componentWillReceiveProps()</strong>Método de
+              <strong>componentWillReceiveProps(): </strong>Método de
               actualización que se invoca cuando las propiedades se van a
               actualizar, aunque no en el primer renderizado del componente, por
               lo tanto no se invocará antes de inicializar las propiedades por
@@ -229,12 +229,12 @@ export function React() {
           a reutilizar y mantener código.
           <ul>
             <li>
-              <strong>High Order Components (HOC)</strong>Es una función que
+              <strong>High Order Components (HOC): </strong>Es una función que
               toma un componente como argumento y devuelve un nuevo componente
               con una funcionalidad adicional.
             </li>
             <li>
-              <strong>Render Props</strong>Este patrón implica pasar una función
+              <strong>Render Props: </strong>Este patrón implica pasar una función
               como una prop al componente hijo con el propósito de permitir al
               componente hijo renderizar su contenido a través de la función.
             </li>
@@ -306,8 +306,8 @@ export function React() {
           o de otros.
         </li>
         <li>
-          <ul>
             <strong>Ejemplos:</strong>
+          <ul>
             <li>Conditional props: Styling</li>
             <li>Conditional props</li>
             <li>Conditional Attributes: Classes</li>

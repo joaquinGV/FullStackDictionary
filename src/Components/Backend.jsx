@@ -204,7 +204,7 @@ export function Backend() {
           tarea no puede comenzar hasta que haya finalizado la otra tarea.
         </li>
         <li>
-          <strong>Operación asíncrona: </strong>Operación <b>no bloqueante</b>
+          <strong>Operación asíncrona: </strong>Operación <b>no bloqueante</b>{" "}
           en la cual se puede iniciar múltiples tareas independientemente de que
           no hayan finalizado las tareas previas.
         </li>
@@ -502,7 +502,7 @@ export function Backend() {
         <li>
           <strong>Sort: </strong>Sirve para poder hacer un ordenamiento de la
           información. La sintaxis es:{" "}
-          <code>db.collection.find().sort({"{val_A:1,val_B:-1}"})</code>
+          <code>db.collection.find().sort({" {val_A:1,val_B:-1} "})</code>
         </li>
         <li>
           <strong>Skip: </strong>Omite el número de documentos indicados su
@@ -754,8 +754,11 @@ export function Backend() {
         <li>
           <strong>Estrategias de Router: </strong>
           <ul>
-            <li>Restringiendo parámetros.</li> Hacer uso de regular expresions
-            para filtrar datos no deseados.
+            <li>Restringiendo parámetros.</li>
+
+            <li>
+              Hacer uso de regular expresions para filtrar datos no deseados.
+            </li>
             <li>Validación de parámetros con router.param().</li>
           </ul>
         </li>
@@ -765,7 +768,7 @@ export function Backend() {
       </Concept>
       <Concept number={24} titulo={"Segunda Practica integradora."}>
         <li>
-          <strong>Introducció: </strong>Es.
+          <strong>En proceso... </strong>
         </li>
       </Concept>
       <Concept
@@ -983,9 +986,7 @@ export function Backend() {
         titulo={"Desarrollo de un servidor web basado en capas completo."}
       >
         <li>
-          <strong>
-            Ejemplo de programación aplicando los diseños aprendidos.
-          </strong>
+          <strong>En proceso...</strong>
         </li>
       </Concept>
       <Concept number={30} titulo={"Mailing y mensajería."}>
