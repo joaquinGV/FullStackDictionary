@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 576px) {
   body, .secciones {
-    font-size: 1.8em; /* Aumenta el tamaño de la fuente en dispositivos móviles */
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente en dispositivos móviles */
   }
 }
 
