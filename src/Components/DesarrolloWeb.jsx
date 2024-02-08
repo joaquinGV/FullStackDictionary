@@ -5,7 +5,7 @@ import { Section } from "./Section";
 export function DesarrolloWeb() {
   return (
     <Section
-      id="Desarrollo Web"
+      id="DesarrolloWeb"
       title={"Desarrollo Web"}
       experiencia={
         "El curso planta las bases del desarrollo Web, conocimiento y practica de gran variedad de las diferentes etiquetas HTML, paso a paso de un proceso de diseño y maquetado, conocimiento CSS de básico a intermedio, creando una pagina web sin JavaScript, aplicando principios de diseños responsive y subida a servidor. Uso basico de librerias como Bootstrap."

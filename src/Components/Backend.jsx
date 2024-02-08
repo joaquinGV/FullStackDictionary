@@ -11,15 +11,15 @@ export function Backend() {
         "El curso repasa rapidamente las bases de javaScript sobre todo las clases, para empezar a utilizar Node.js y Express, creación de una API basica e irla reestructurando clase por clase conforme los temas son vistos, haciendola cada vez más robusta, aplicando una gran variedad de temas, con muchos más entregables en comparación a cursos previos y uso de diversas herramientas que fueron optimizandose, uso de librerias nuevas como: zod, pm2, winston, swagger, nodemailer, bcrypt, dotenv, cors, passport, faker, entre otras. Incluso frameworks como Nest.js, base de datos con MongoDB y Atlas. Un programa extenso, el cual ha transformado y refactorizado en repetidas ocasiones pera crear una API escalable, segura y dividida por capas. "
       }
       url={
-        "https://joaquingv.github.io/starsjewerly/PreEntrega3-GonzalezVazquez/paginas/cita.html#"
+        "https://github.com/joaquinGV/backendCourse/tree/main/Clase39_entregable"
       }
-      proyectTitle={"API de ECOMMERCE (Usuarios, Productos, Carritos y Tickets)"}
+      proyectTitle={
+        "API de ECOMMERCE (Usuarios, Productos, Carritos y Tickets)"
+      }
       proyectDescription={
         "El proyecto sigue en curso y aplicandole testing entre otras optimizaciones de front-end, funcional, segura y usable por cualquiera. Se puede acceder a la documentación en la cual registrandose e iniciando sesion se le brinda un codigo JWT, el cual dependiendo el nivel de autorizacion registrado, tienen diferentes niveles de accesibilidad a los distintos endpoints, ejemplo: crear un producto siendo usuario PREMIUM y no como USER, como ADMIN no pueden realizar compras. Accede aqui ➪ "
       }
-      proyectUrl={
-        "https://backendapi-development.up.railway.app/api/docs/"
-      }
+      proyectUrl={"https://backendapi-development.up.railway.app/api/docs/"}
       proyectText={"Documentación API."}
     >
       <Concept number={1} titulo={"Principios básicos de JavaScript"}>

@@ -1,7 +1,6 @@
 
 .concept-details {
-    width: 650px;
-    margin-right: 50px;
+    width: 630px;
     text-align: justify;
 }
 
@@ -73,7 +72,6 @@ li{
 .proyect-description {
   font-size: 14px;
 }
-
 
 .rounded-p{
   border-radius: 0 0 8px 8px;

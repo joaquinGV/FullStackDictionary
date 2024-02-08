@@ -1,6 +1,7 @@
 import { IoIosRocket } from "react-icons/io";
 
 export function Section({
+  id,
   title,
   url,
   experiencia,
@@ -11,7 +12,7 @@ export function Section({
   children,
 }) {
   return (
-    <div className="concept-details">
+    <div className="concept-details" id={id}>
       <h2 style={{ textAlign: "center" }}>{title}</h2>
       <section>
         <h3>Experiencia:</h3>
@@ -37,7 +38,7 @@ export function Section({
           ""
         )}
       </section>
-      {children}
+      <div className="children-div">{children}</div>
     </div>
   );
 }
