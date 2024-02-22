@@ -1348,6 +1348,20 @@ export function Backend() {
       </Concept>
       <Concept number={42} titulo={"Frameworks de desarrollo: Nest js I"}>
         <li>
+          <strong>Frameworks: </strong>Son herramientas generadoras de programas
+          scaffolds.
+        </li>
+        <li>
+          <strong>Nestjs: </strong>Es un framework que permite crear Server Side
+          Applications, de una manera eficiente y escalable.
+        </li>
+        <li>
+          <strong>Program Scaffold: </strong>Permite tener una estructura
+          iniciada sobre algún modelo específico.
+        </li>
+      </Concept>
+      <Concept number={42} titulo={"Frameworks de desarrollo: Nest js II"}>
+        <li>
           <strong>En proceso... </strong>
         </li>
       </Concept>
